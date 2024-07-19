@@ -1,3 +1,4 @@
+"use strict";
 function slugify(title) {
   return String(title)
     .normalize("NFKD") // split accented characters into their base characters and diacritical marks
